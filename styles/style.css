@@ -10,13 +10,15 @@ html {
 
 .page {
   inline-size: 1200px;
-  max-height: 800px;
   block-size: 100%;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -69,9 +71,9 @@ ol {
   gap: 30px;
   max-width: 1140px;
   margin-top: var(--m-t-b); 
-  margin-bottom: var(--m-t-b); 
+  /* margin-bottom: var(--m-t-b); 
   margin-left: var(--m-l-r);
-  margin-right: var(--m-l-r);
+  margin-right: var(--m-l-r); */
 } 
 
 .result {
