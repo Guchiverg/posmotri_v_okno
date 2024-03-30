@@ -55,7 +55,7 @@ ol {
 .content {
   display: flex;
   align-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 30px;
   inline-size: 1140px;
 } 
@@ -255,6 +255,9 @@ ol {
   text-decoration: underline;
 }
 
+.button:focus {
+  outline: none;
+}
 
 .content__card-link_current {
   background-color: var(--gray);
@@ -303,5 +306,9 @@ ol {
 .more-button {
   inline-size: 399px;
   block-size: 34px;
+}
+
+.search-form__checkbox-list .search-form__label:hover {
+  text-decoration: underline;
 }
 
