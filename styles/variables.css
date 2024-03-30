@@ -1,12 +1,12 @@
 :root {
-    --m-t-b: 133px;
-    --m-l-r: 30px;
-    --m-b-video: 16px;
-    --m-b-title: 26px; 
-    --m-b-input: 5px;
-    --m-r-label: 15px;
-    --p-b-item: 32px;
-    --white: #fff;
-    --black: #1b1919;
-    --gray: #545050;
+  --m-t: 133px;
+  --m-l: 30px;
+  --m-s: 16px;
+  --m-m: 26px; 
+  --m-xxs: 5px;
+  --m-r: 15px;
+  --m-xl: 32px;
+  --white: #fff;
+  --black: #1b1919;
+  --gray: #545050;
   }
