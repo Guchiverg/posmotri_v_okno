@@ -182,15 +182,6 @@ ol {
   outline-offset: 2px;
 }
 
-.search-form__submit-button {
-  outline: none;
-}
-
-.search-form__submit-button:focus-visible {
-  outline: 1px solid var(--white);
-  outline-offset: 2px;
-}
-
 .search-form__fieldset-title {
   margin-block-end: var(--m-xxs);
   font-weight: 400;
@@ -225,12 +216,18 @@ ol {
 
 .search-form__submit-button {
   inline-size: 194px;
+  outline: none;
   block-size: 34px;
+  margin-bottom: 2px;
+}
+
+.button:focus {
+  outline: none;
 }
 
 .button:focus-visible {
   outline: 1px solid var(--white);
-  outline-offset: -4px;
+  outline-offset: 1px;
 }
 
 .button:active {
@@ -253,10 +250,6 @@ ol {
 
 .button:hover {
   text-decoration: underline;
-}
-
-.button:focus {
-  outline: none;
 }
 
 .content__card-link_current {
@@ -304,8 +297,9 @@ ol {
 }
 
 .more-button {
-  inline-size: 399px;
+  inline-size: calc(100% - 4px);
   block-size: 34px;
+  margin: 0 2px 2px 2px;
 }
 
 .search-form__checkbox-list .search-form__label:hover {
